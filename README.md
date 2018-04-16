@@ -1,4 +1,4 @@
-# Youtube-data-analysis-using-hive-table-in-spark
+# Youtub data analysis using hive table in spark
 
 YouTube (the world-famous video sharing website) maintains a list of the top trending videos on the platform. According to Variety magazine,  YouTube uses a combination of factors including measuring users interactions (number of views, shares, comments and likes).
     
