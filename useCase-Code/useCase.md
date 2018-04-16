@@ -37,7 +37,7 @@ top3Cat.show()
 ##  based on the top 3 category  of every region find out top 2 videos for that top category which have most no likes
 
 ```py
-\* have created oe view abc *\
+ -- have created oe view abc 
 sqlContext.sql\
 (" create view abc as select * from (select country,category_name, cat_count, rank() over (partition by country order by cat_count desc) rank from (select t1.country country,t1.cat_id cat_id,t2.categoryname category_name, count(t1.cat_id) cat_count from\
 (select distinct country country,category_id cat_id,video_id from video_desc)t1,categoryid t2 \
