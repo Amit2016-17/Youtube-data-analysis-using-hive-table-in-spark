@@ -23,6 +23,6 @@ Also one particular video_id can exist in multiple dataset of different countrie
 
 Then two internal table video_desc and categoryid has been created and stored it as PARQUET file. Then data with required columns  have been loaded from staging table stg_video and stg_categoryid respectively.
 
-  [use cases]()
+  [use cases](https://github.com/rakeshdey0018/Youtube-data-analysis-using-hive-table-in-spark/blob/master/useCase-Code/useCase.md)
 
 All the hive tables have been used in spark console using sqlContext object. In cloudera quickstart vm, object of  HiveContext is created as sqlContext after launching spark. It will actually convert RDD to dataframe. It provide much better performance btter to running a query in Hive console.
