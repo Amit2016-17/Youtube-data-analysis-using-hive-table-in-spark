@@ -15,7 +15,7 @@ Also one particular video_id can exist in multiple dataset of different countrie
 
 *  ## [Use Cases and code]()
 
-  [External Table creation and Raw data load]()
+  [External Table creation and Raw data load](https://github.com/rakeshdey0018/Youtube-data-analysis-using-hive-table-in-spark/blob/master/useCase-Code/ExtTableCreationDataLoad.hql)
  
   First staging external  table(stg_video) in hive has been created using HUE console to load the raw data.  static partition by country for that table has been used for better performance . Same way External  table (stg_categoryid) has been created  to load the json data of category id. 
   
